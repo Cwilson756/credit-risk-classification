@@ -1,14 +1,8 @@
-# Module 12 Report Template
+# Module 12 Report
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The purpose of this analysis was to create a model to accurately predict if a loan will be 0 - healthy loan or a 1 - high risk loan. The data provided was lending data including the following rows: loan size, interest rate, borrower income, debt to income, num of accounts, derogatory marks, total debt, and loan status. We were trying to predict the total number of healthy and high risk loans there were through value_counts, splitting the lending data provided into training and test data. We then built predictions around the training data using a Logistical Regression Model to predict if a loan will be healthy or high risk. We did this once with the scaled data, and once with an oversampling libary to expand the avalible data to the model. We then confirmed the accuracy of these models using accuracy scores, confusing matrix analysis, and classification reports.
 
 ## Results
 
